@@ -21,8 +21,16 @@ document.addEventListener('alpine:init', () => {
 	function TaxiQueue() {
 
 
-		function joinQueue() {
-	
+		function joinQueue() 
+		{
+			
+			let passengers=0;
+				
+			passengers+=1;
+
+			return passengers;
+				
+		
 		}
 	
 		function leaveQueue() {
@@ -37,11 +45,13 @@ document.addEventListener('alpine:init', () => {
 	
 		}
 	
-		function taxiQueueLength() {
+		function taxiQueueLength() 
+		{
 	
 		}
 	
-		function taxiDepart(){
+		function taxiDepart()
+		{
 	
 		}
 	
