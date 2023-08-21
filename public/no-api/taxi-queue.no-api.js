@@ -7,6 +7,7 @@ document.addEventListener('alpine:init', () =>
 
 		return {
 			version: 'no-api-1.0',
+<<<<<<< HEAD
 			passengers:0,
 			taxi_count:0,
 			joinQueue() 
@@ -44,15 +45,41 @@ document.addEventListener('alpine:init', () =>
 					this.taxi_count-=1;
 					this.passengers===0
 				}
+=======
+			joinQueue() {
+
+			},
+			leaveQueue() {
+
+			},
+
+			joinTaxiQueue() {
+
+			},
+
+			queueLength() {
+
+			},
+
+			taxiQueueLength() {
+
+			},
+
+			taxiDepart() {
+
+>>>>>>> 6392e4386f5911e67e412a38293df2853a93f95d
 			}
 		}
 
 
+<<<<<<< HEAD
 
 });
 
 	
 
+=======
+>>>>>>> 6392e4386f5911e67e412a38293df2853a93f95d
 });
 
 

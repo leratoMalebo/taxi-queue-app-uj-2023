@@ -4,7 +4,7 @@ document.addEventListener('alpine:init', () => {
 
 		return {
 			version: 'api-1.0',
-			queueLength : 0,
+			queueLength: 0,
 			init() {
 				axios
 					.get('/api/passenger/queue')
@@ -12,11 +12,33 @@ document.addEventListener('alpine:init', () => {
 						// an example API call
 						this.queueLength = result.data.queueCount
 					});
+			},
+			joinQueue() {
+
+			},
+			leaveQueue() {
+
+			},
+
+			joinTaxiQueue() {
+
+			},
+
+			queueLength() {
+
+			},
+
+			taxiQueueLength() {
+
+			},
+
+			taxiDepart() {
+
 			}
 		}
-
 	});
 
+<<<<<<< HEAD
 
 	function TaxiQueue() {
 
@@ -65,6 +87,8 @@ document.addEventListener('alpine:init', () => {
 		}
 	}
 
+=======
+>>>>>>> 6392e4386f5911e67e412a38293df2853a93f95d
 });
 
 
